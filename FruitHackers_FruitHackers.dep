@@ -1,0 +1,61 @@
+Dependencies for Project 'FruitHackers', Target 'FruitHackers': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::ARMCC
+F (.\startup.s)(0x56D7222A)(--cpu Cortex-M4 -g --apcs=interwork -I.\RTE\_FruitHackers-IC:\Users\bprim\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\bprim\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123--pd "__UVISION_VERSION SETA 529" --pd "_RTE_ SETA 1" --pd "TM4C123GH6PM SETA 1"--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\random.s)(0x5E21FA8C)(--cpu Cortex-M4 -g --apcs=interwork -I.\RTE\_FruitHackers-IC:\Users\bprim\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\bprim\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123--pd "__UVISION_VERSION SETA 529" --pd "_RTE_ SETA 1" --pd "TM4C123GH6PM SETA 1"--list .\random.lst --xref -o .\random.o --depend .\random.d)
+F (.\DAC.c)(0x5EAC3DB5)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\.. --C99-I.\RTE\_FruitHackers-IC:\Users\bprim\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\bprim\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="529" -D_RTE_ -DTM4C123GH6PM -Drvmdk -DPART_LM4F120H5QR-o .\dac.o --omf_browse .\dac.crf --depend .\dac.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B96F8)
+I (../inc/tm4c123gh6pm.h)(0x5388C2DA)
+F (.\ADC.c)(0x5EB067F4)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\.. --C99-I.\RTE\_FruitHackers-IC:\Users\bprim\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\bprim\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="529" -D_RTE_ -DTM4C123GH6PM -Drvmdk -DPART_LM4F120H5QR-o .\adc.o --omf_browse .\adc.crf --depend .\adc.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B96F8)
+I (../inc/tm4c123gh6pm.h)(0x5388C2DA)
+F (.\Timer0.c)(0x5EAE06DA)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\.. --C99-I.\RTE\_FruitHackers-IC:\Users\bprim\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\bprim\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="529" -D_RTE_ -DTM4C123GH6PM -Drvmdk -DPART_LM4F120H5QR-o .\timer0.o --omf_browse .\timer0.crf --depend .\timer0.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B96F8)
+I (../inc/tm4c123gh6pm.h)(0x5388C2DA)
+F (.\Sound.c)(0x5EB5A33F)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\.. --C99-I.\RTE\_FruitHackers-IC:\Users\bprim\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\bprim\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="529" -D_RTE_ -DTM4C123GH6PM -Drvmdk -DPART_LM4F120H5QR-o .\sound.o --omf_browse .\sound.crf --depend .\sound.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B96F8)
+I (Sound.h)(0x5EB5A32B)
+I (DAC.h)(0x5E21FAE0)
+I (Timer0.h)(0x5EAC4ACC)
+I (Button.h)(0x5EB0662C)
+F (.\LCD.s)(0x5DDAAD56)(--cpu Cortex-M4 -g --apcs=interwork -I.\RTE\_FruitHackers-IC:\Users\bprim\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\bprim\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123--pd "__UVISION_VERSION SETA 529" --pd "_RTE_ SETA 1" --pd "TM4C123GH6PM SETA 1"--list .\lcd.lst --xref -o .\lcd.o --depend .\lcd.d)
+F (.\Print.s)(0x5EAB4CCA)(--cpu Cortex-M4 -g --apcs=interwork -I.\RTE\_FruitHackers-IC:\Users\bprim\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\bprim\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123--pd "__UVISION_VERSION SETA 529" --pd "_RTE_ SETA 1" --pd "TM4C123GH6PM SETA 1"--list .\print.lst --xref -o .\print.o --depend .\print.d)
+F (.\ST7735.c)(0x5E21FA8C)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\.. --C99-I.\RTE\_FruitHackers-IC:\Users\bprim\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\bprim\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="529" -D_RTE_ -DTM4C123GH6PM -Drvmdk -DPART_LM4F120H5QR-o .\st7735.o --omf_browse .\st7735.crf --depend .\st7735.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9B96FA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B96F8)
+I (ST7735.h)(0x5EAC2D1D)
+I (../inc/tm4c123gh6pm.h)(0x5388C2DA)
+F (.\SysTick.c)(0x5EB5C0D8)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\.. --C99-I.\RTE\_FruitHackers-IC:\Users\bprim\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\bprim\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="529" -D_RTE_ -DTM4C123GH6PM -Drvmdk -DPART_LM4F120H5QR-o .\systick.o --omf_browse .\systick.crf --depend .\systick.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B96F8)
+I (../inc/tm4c123gh6pm.h)(0x5388C2DA)
+I (ST7735.h)(0x5EAC2D1D)
+I (Print.h)(0x5EAB4D13)
+I (Random.h)(0x5E21FAE0)
+I (PLL.h)(0x5E21FAE0)
+I (ADC.h)(0x5E21FAE0)
+I (Sound.h)(0x5EB5A32B)
+I (Timer0.h)(0x5EAC4ACC)
+I (Timer1.h)(0x5E21FAE0)
+I (SysTick.h)(0x5EAE4740)
+F (.\SysTick.h)(0x5EAE4740)()
+F (.\Button.c)(0x5EB0662C)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\.. --C99-I.\RTE\_FruitHackers-IC:\Users\bprim\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\bprim\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="529" -D_RTE_ -DTM4C123GH6PM -Drvmdk -DPART_LM4F120H5QR-o .\button.o --omf_browse .\button.crf --depend .\button.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B96F8)
+I (../inc/tm4c123gh6pm.h)(0x5388C2DA)
+I (Sound.h)(0x5EB5A32B)
+F (.\Button.h)(0x5EB0662C)()
+F (..\Lab8_EE319K\texas.o)(0x56D7222A)()
+F (.\TExaS.h)(0x5EAEC144)()
+F (.\FruitHackers.c)(0x5EB5A6F6)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\.. --C99-I.\RTE\_FruitHackers-IC:\Users\bprim\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include-IC:\Users\bprim\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="529" -D_RTE_ -DTM4C123GH6PM -Drvmdk -DPART_LM4F120H5QR-o .\fruithackers.o --omf_browse .\fruithackers.crf --depend .\fruithackers.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B96F8)
+I (../inc/tm4c123gh6pm.h)(0x5388C2DA)
+I (ST7735.h)(0x5EAC2D1D)
+I (Print.h)(0x5EAB4D13)
+I (Random.h)(0x5E21FAE0)
+I (PLL.h)(0x5E21FAE0)
+I (ADC.h)(0x5E21FAE0)
+I (Images.h)(0x5EB0D7FF)
+I (Sound.h)(0x5EB5A32B)
+I (Timer0.h)(0x5EAC4ACC)
+I (Timer1.h)(0x5E21FAE0)
+I (SysTick.h)(0x5EAE4740)
+I (TExaS.h)(0x5EAEC144)
+I (Button.h)(0x5EB0662C)

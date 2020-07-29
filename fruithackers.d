@@ -1,0 +1,15 @@
+.\fruithackers.o: FruitHackers.c
+.\fruithackers.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\fruithackers.o: ../inc/tm4c123gh6pm.h
+.\fruithackers.o: ST7735.h
+.\fruithackers.o: Print.h
+.\fruithackers.o: Random.h
+.\fruithackers.o: PLL.h
+.\fruithackers.o: ADC.h
+.\fruithackers.o: Images.h
+.\fruithackers.o: Sound.h
+.\fruithackers.o: Timer0.h
+.\fruithackers.o: Timer1.h
+.\fruithackers.o: SysTick.h
+.\fruithackers.o: TExaS.h
+.\fruithackers.o: Button.h
